@@ -1,5 +1,42 @@
 *{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Lobster', sans-serif;
     font-size: 20px;
     float: center;
 }
+
+body {
+    background-color: white;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }
+
+.tabs {
+    background-color: #a31f34;
+    overflow: hidden;
+}
+
+.tabs a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .tabs a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .tabs a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  
