@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>SellMIT!</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+	</head>
+    <body>
+        <div class="navbar">
+            <div class="title">SellMIT!</div>
+            
+            <div class="tabs">
+                <a href="hackmit.html">Buy</a>
+                <a href="sell.html">Sell</a>
+                <a href="">About</a>
+                <a href="">My Account</a>
+            </div>
+        </div>
+    </p>
+    Hello! Please upload a photo of all your products to sell.
+    </p>
+      <input type="file" accept="image/*" onchange="loadFile(event)">
+      <p><img id="output" width="200"/></p>
+      <script>
+          var loadFile = function(event) {
+              var image = document.getElementById('output');
+              image.src=URL.createObjectURL(event.target.files[0]);
+          };
+      </script>
+    <div class="information">
+        <h1>
+            <label for="fname">Item name:</label>
+            <input type="text" id="fname" name="fname">
+            Price: $USD<input type="number" />
+            <input type="checkbox" id="negotiate" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Negotiable</label><br>
+            <p>Description:</p>
+            <textarea name="paragraph_text" cols="50" rows="10"></textarea>
+            <br>
+            <label for="dog-names">Choose tag(s) for your product:</label> 
+            <select name="dog-names" id="dog-names"> 
+                <option value="rigatoni">Clothing</option> 
+                <option value="dave">Technology</option> 
+                <option value="pumpernickel">Household Essential</option> 
+                <option value="reeses">Other</option> 
+            </select>
+        </h1>
+        
+    </div>
+    
+    
+    </body>
+</html>
