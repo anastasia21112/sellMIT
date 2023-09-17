@@ -17,5 +17,7 @@
  $fcon = fopen($fname,'a');
  $fcontent = $csv_line;
  fwrite($fcon,$fcontent);
- fclose($fcon);
+ fwrite($fcon, "\n")
+ header('Location: sell.html');
+ exit;
  ?>
