@@ -1,0 +1,95 @@
+*{
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    color: black;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+body {
+    background-color: #F4F1DE;
+}
+
+.tabs {
+    background-color: #3D405B;
+    overflow: hidden;
+    padding: 15px 15px;
+}
+.sellmit{
+    text-align: left;
+    color: white;
+    overflow: hidden;
+    padding: 15px 15px;
+}
+/* h1{
+    text-align: center;
+    font-size: 40px;
+
+} */
+h2{
+    margin-left: 20px;
+    font-size: 30px;
+    color: black;
+    padding-top: 20px;
+}
+
+.tabs a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+/* Change the color of links on hover */
+.tabs a:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+/* Add a color to the active/current link */
+.tabs a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.clothing{
+    font-size: 20px;
+}
+
+.row{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-col{
+    flex-basis: 33%;
+    border: solid;
+    border-color: black;
+    background: #F0EBD1;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    text-align: center;    
+}
+.row2{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.img-col2{
+    flex-basis: 33%;
+    background: #F0EBD1;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    text-align: center;
+    border: solid;
+    border-color: black;
+}
