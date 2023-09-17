@@ -27,9 +27,9 @@ body {
 }
 
 
-.container {
+/* .container {
   vertical-align: middle;
-}
+} */
 .tabs {
     background-color: #3D405B;
     overflow: hidden;
@@ -98,7 +98,7 @@ body {
   .cancelbtn {
     width: auto;
     padding: 10px 18px;
-    background-color: #a31f34;
+    background-color: #3D405B;
   }
   
   /* Center the avatar image inside this container */
