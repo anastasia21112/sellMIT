@@ -1,5 +1,7 @@
 <?php
 
+header('Location: sell.html');
+
  $image = $_POST["output"];
  $name = $_POST["fname"];
  $price = $_POST["price"];
@@ -20,6 +22,4 @@
  fwrite($fcon,$fcontent); 
  fclose($fcon);
 
- header('Location: sell.html');
- exit;
  ?>
