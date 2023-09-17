@@ -1,7 +1,7 @@
 <?php
  $image = $_POST["output"];
  $name = $_POST["fname"];
- $price = $_POST["price"]
+ $price = $_POST["price"];
  $negotiate = $_POST["negotiate"];
  $description = $_POST["description"];
  $categories = $_POST["product-tag"];
