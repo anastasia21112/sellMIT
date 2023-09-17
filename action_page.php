@@ -1,4 +1,5 @@
 <?php
+
  $image = $_POST["output"];
  $name = $_POST["fname"];
  $price = $_POST["price"];
@@ -15,9 +16,10 @@
  $csv_line = implode(',',$csv_line);
  if(!file_exists($fname)){$csv_line = "\r\n" . $csv_line;}
  $fcon = fopen($fname,'a');
- $fcontent = $csv_line;
- fwrite($fcon,$fcontent);
- fwrite($fcon, "\n")
+ $fcontent = $csv_line + "\n";
+ fwrite($fcon,$fcontent); 
+ fclose($fcon);
+
  header('Location: sell.html');
  exit;
  ?>
